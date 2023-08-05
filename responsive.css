@@ -38,6 +38,15 @@ Like MOTO G31 etc*/
     .smallest-para {
         display: block;
     }
+    .localities{
+        width:270px ;
+        height: 78px;
+        padding:  1rem 0 0 1rem;
+    }
+    .size{
+        margin-left: 15px;
+
+    }
 
 
 
@@ -389,6 +398,18 @@ Exanple Laptop monitor etc */
         font-size: 14px;
 
     }
+
+
+
+    .localities-container{
+        height: 350px;
+    }
+
+    .size{
+        text-align: left !important;
+        margin-left: -350px;
+    }
+
 
 
 

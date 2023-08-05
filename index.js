@@ -1,4 +1,4 @@
-let area = document.querySelector('#area-name')
+let area = document.querySelectorAll('#area-name')
 
 let areaInput = document.querySelector('#location')
 
@@ -9,7 +9,10 @@ areaForm.addEventListener('submit',(e)=>{
     e.preventDefault()
     let val = areaInput.value
     val = val.charAt(0).toUpperCase() + val.slice(1);
-    area.innerText=val
+
+    for(let i =0 ;i<area.length;i++){
+        area[i].innerText=val
+    }
 
     areaInput.value=''
     
