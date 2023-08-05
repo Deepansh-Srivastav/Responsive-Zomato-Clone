@@ -38,15 +38,36 @@ Like MOTO G31 etc*/
     .smallest-para {
         display: block;
     }
-    .localities{
-        width:270px ;
+
+    .localities {
+        width: 260px;
         height: 78px;
-        padding:  1rem 0 0 1rem;
+        padding: 1rem 0 0 1rem;
     }
-    .size{
+
+    .size {
         margin-left: 15px;
 
     }
+
+    #input{
+        padding: 10px 5px;
+    }
+
+    #submit-button{
+
+    padding : 10px 5px;
+    margin: 0;
+    
+
+}
+
+.downloadfrom{
+    width: 120px;
+    height: 35px;
+    margin-left: 5px;
+}
+
 
 
 
@@ -330,9 +351,10 @@ Exanple Laptop monitor etc */
     /* COLLECTIONS */
 
 
-    .collections-text-container{
+    .collections-text-container {
         padding: 0;
     }
+
     .card-container {
 
 
@@ -359,18 +381,20 @@ Exanple Laptop monitor etc */
         display: block;
         color: #E03546
     }
+
     .para-span {
         display: flex;
         justify-content: space-between;
-       
+
     }
-    .card-container{
+
+    .card-container {
         justify-content: space-evenly;
         /* width: 80%; */
         /* flex-wrap: nowrap; */
     }
 
-    .card{
+    .card {
         margin: 0;
         height: 320px;
     }
@@ -401,15 +425,67 @@ Exanple Laptop monitor etc */
 
 
 
-    .localities-container{
+    .localities-container {
         height: 350px;
     }
 
-    .size{
+    .size {
         text-align: left !important;
         margin-left: -350px;
     }
 
+    .localities {
+        box-shadow: 0.01px 0.01px 2px black;
+    }
+
+    .localities:hover {
+        box-shadow: 0.01px 0.05px 5px black;
+    }
+
+
+
+
+
+    .get-zomato-div h2 {
+        text-align: left;
+        font-size: 44px;
+        width: 550px;
+    }
+
+    .get-zomato-div p {
+        text-align: left;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 480px;
+
+    }
+
+    .email-phone-input {
+        width: 500px;
+    }
+
+    #input {
+        width: 290px;
+        height: 48px;
+    }
+
+    #submit-button {
+        width: 150px;
+        height: 48px;
+    }
+
+    .mobileIcon{
+        display: block;
+        height: 300px;
+        margin-right:100px ;
+        
+    }
+
+    .downlaodApp{
+        margin-top: -10px;
+    }
+
+  
 
 
 
@@ -480,7 +556,7 @@ Exanple Laptop monitor etc */
 
 
 
-    .card-container{
+    .card-container {
         justify-content: space-evenly;
         width: 80%;
     }
