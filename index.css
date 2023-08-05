@@ -1,0 +1,505 @@
+body {
+
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+/* Header Styleing */
+
+.top-section-with-backgroundimg {
+    width: 100%;
+    height: 66.5vh;
+    /* background-color: cyan; */
+
+    /* Setting Background imagge */
+
+    background-image: url(./icons/bg-banner.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-position-y: 0px;
+    /* background-size:103% ; */
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Navbar Styling */
+.navbar {
+    width: 95%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+.get-app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+.get-app p {
+    margin: 0;
+}
+
+
+
+
+
+
+/* Login styling */
+.login {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+
+
+
+
+
+.login img {
+    height: 20px;
+    width: 20px;
+    margin-top: -4px;
+
+}
+
+
+
+
+
+/* list will be activated in responsive part */
+.login-responsive-container {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* navbar styling ends here */
+/* main icon */
+.zomato-main-icon {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.zomato-main-icon img {
+    width: 150px;
+    height: 35px;
+}
+
+
+
+
+
+
+/* Text under zomato icon */
+.text {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+}
+
+
+/* location and search */
+
+/* Main container` */
+
+.form-main-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.location-and-search {
+
+    width: 100%;
+    height: 50px;
+    max-width: 420px;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+
+
+/* location Icon div */
+.location-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* ADJUSTING THE SIZE OF LOCATION IMAGE */
+.location-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+/* TARGETTING THE LOCATION INPUT WITH ID */
+/* Location input styleing */
+#location {
+    width: 200px;
+    height: 40px;
+    margin-left: -4px;
+    border: none;
+
+}
+
+
+
+
+
+#location:focus {
+    outline: none;
+
+}
+
+
+
+/* SEARCH MAIN CONTAINER WHOSE BG IS WHITE  */
+
+.search-container {
+    height: 50px;
+    width: 100%;
+    max-width: 530px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+
+/* SEARCH IMG */
+.search-container img {
+    width: 16px;
+    height: 16px;
+    margin: 10px;
+}
+
+/* TARGETTING THE SEARCH INPUT WITH ID */
+#s {
+    border: none;
+    width: 250px;
+
+}
+
+
+
+#s:focus {
+    outline: none;
+
+}
+
+
+
+
+
+
+
+/* ORDER SECTION */
+
+.order-section {
+    width: 100%;
+    height: auto;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.order-section-container {
+
+    /* height: 170px; */
+    /* border: 1px solid black; */
+    margin: 20px 0 0 22px;
+    display: flex;
+    flex-basis: 172px;
+    max-width: 210px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.order-section-container:hover {
+    transform: scale(1.04);
+    transition: transform .28s ease-in-out;
+    cursor: pointer;
+}
+
+.food-img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 100px;
+
+
+}
+
+
+
+.food-img-text {
+    height: auto;
+    width: 100%;
+    /* margin-top: -25px; */
+    background-color: white;
+    border: 1px solid rgb(232, 232, 232);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: none;
+    padding: 10px 10px 16px;
+    box-sizing: border-box;
+}
+
+.food-img-text-heading {
+    font-size: 14px;
+    margin: 0;
+    color: #4f4f4f;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+/* para for biggest size device  */
+.food-img-text-para {
+    font-size: 12px;
+    margin: 0;
+    color: #4F4F4F;
+    display: none;
+}
+
+/* para for medium size device  */
+/* Currently active */
+.medium-para {
+    font-size: 12px;
+    margin: 0;
+    color: #4F4F4F;
+    /* display: none;   */
+}
+
+/* para for smallest size device  */
+.smallest-para {
+    font-size: 12px;
+    margin: 0;
+    color: #4F4F4F;
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+/* COLLECTIONS */
+
+.collections-section {
+    margin-top: 80px;
+    width: 100%;
+    /* max-width: 1550px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.collections-text-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+
+}
+.heading-span{
+    width: 100%;
+    max-width: 1160px;
+}
+.para-span{
+    width: 100%;
+    max-width: 1160px;
+}
+.collections-heading {
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: bold;
+}
+
+.collections-para {
+    font-size: 12px;
+    color: #363636;
+}
+.all-collections{
+    display: none;
+}
+
+
+
+
+.card-container {
+
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+
+
+}
+
+.card {
+    height: 172px;
+    width: 43%;
+    max-width: 267px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 10px 0 0 5%;
+    padding:0 0 5px 5px;
+
+
+
+}
+
+.card:nth-child(1) {
+    background-image: url(./icons/f1.avif);
+    background-size: cover;
+    background-position-x: -32px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.card:nth-child(2) {
+    background-image: url(./icons/f2.avif);
+    background-size: cover;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.card:nth-child(3) {
+    background-image: url(./icons/3.avif);
+    background-size: cover;
+    background-position-x: -30px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.card:nth-child(4) {
+    background-image: url(./icons/4.avif);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.p1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.p2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+}

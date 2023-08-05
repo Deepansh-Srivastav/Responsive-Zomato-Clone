@@ -1,0 +1,551 @@
+/* For Small Devices Height<700 and Width<350 
+Like MOTO G31 etc*/
+
+/* MOTO */
+@media (max-width:350px) {
+    .top-section-with-backgroundimg {
+        width: 100%;
+        height: 58vh;
+    }
+
+    .zomato-main-icon {
+        margin-top: 55px;
+    }
+
+
+
+
+    /* ORDER SECTION */
+
+    .order-section-container {
+        margin: 15px 0 0 15px;
+        flex-basis: 135px;
+        max-width: 135px;
+        /* border: 1px solid red; */
+
+    }
+
+
+    /* Adjusting the TEXT */
+    .food-img-text-para {
+        display: none;
+    }
+
+    .medium-para {
+        display: none;
+    }
+
+    .smallest-para {
+        display: block;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+/* MI note 10 */
+@media (min-width:350px) and (max-width:400px) {
+
+
+    /* Order Section Adjustments  */
+    .order-section-container {
+        margin: 15px 0 0 15px;
+        flex-basis: 166px;
+
+        max-width: 170px;
+        display: flex;
+        flex-grow: 1;
+
+    }
+
+    .food-img {
+        width: 160px;
+        max-width: 180px;
+    }
+
+    /* Adjusting the TEXT */
+    .food-img-text-para {
+        display: none;
+    }
+
+    .medium-para {
+        display: none;
+    }
+
+    .smallest-para {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* For Little bit larger  Devices Height>700 and Width>350 
+Like Samsung M32 etc*/
+
+@media (min-width:350px) and (min-height:700px) {
+    .top-section-with-backgroundimg {
+        width: 100%;
+        height: 53vh;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* For Larger Device whose height and widht are greater than 700px and 800 px
+Exanple Laptop monitor etc */
+
+
+
+
+
+@media (min-width:800px) {
+
+    .top-section-with-backgroundimg {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    /* CHANGING WIDTH AND HEIGHT OF NAVBAR IN RESPONSIVE  */
+    .navbar {
+        width: 95%;
+        height: 50px;
+    }
+
+
+
+    /* CHANGING THE IMAGE OF LOGIN SIGNUP TO LIST */
+    .login {
+
+        display: none;
+    }
+
+
+
+    /* LIST CONTAINER */
+    .login-responsive-container {
+        height: 50px;
+        width: 63%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    /* LIST ITEMS LOGIN SIGNUP ETC */
+    .login-list-content {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+    /* navbar styling ends here */
+
+    /* ZOMATO MAIN ICON ADJUSTMENT */
+    .zomato-main-icon img {
+        width: 300px;
+        height: 60px;
+    }
+
+
+
+
+
+    /* Text under ZOMATO MAIN ICON ADJUSTMENT */
+    .text {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        margin: 30px 10px 20px 10px;
+    }
+
+
+
+
+
+
+    /* FORM LOCATION AND SEARCH ADJUSTMENT */
+
+    /* MIAN CONTAINER JISME DONO LOCATION AND SEARCH HAIN  */
+    .form-main-container {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+    /* LOCATION MAIN CONTAINER JISME BG COLOR = WHITE  */
+    .location-and-search {
+
+        width: 30%;
+        height: 50px;
+        display: flex;
+        justify-content: start;
+        background-color: white;
+        align-items: center;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        max-width: 240px;
+    }
+
+
+
+
+
+
+    /* SEARCH MAIN CONTAINER JISME BG COLOR = WHITE  */
+    .search-container {
+        height: 50px;
+        width: 100%;
+        max-width: 482px;
+        background-color: white;
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-left: 1px solid rgb(118, 118, 118);
+        padding: 5px;
+    }
+
+    /* ADJUSTING THE INPUT SIZE JISSE KI USER SEARCH-BAR ME KAHI BHI CLICK KARE TO INPUT DAL SAKE  */
+    #s {
+        border: none;
+
+        height: 40px;
+        width: 440px;
+
+    }
+
+    .order-section {
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+
+    .order-section-container {
+        max-width: 354px;
+        flex-grow: 1;
+
+    }
+
+
+
+    .food-img {
+        height: 190px;
+        width: 100%;
+
+    }
+
+    .food-img-text {
+        /* margin-top: -62px; */
+        height: 100px;
+
+        padding: 10px 16px 0px 16px;
+    }
+
+    .food-img-text-heading {
+        font-size: 20px;
+        margin: 5px 0 10px 0;
+    }
+
+    /* Adjusting the TEXT display and size*/
+    .food-img-text-para {
+
+        display: none;
+    }
+
+    .medium-para {
+        display: block;
+        font-size: 16px;
+    }
+
+    .smallest-para {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    /* COLLECTIONS */
+
+
+    .collections-text-container{
+        padding: 0;
+    }
+    .card-container {
+
+
+        justify-content: center;
+
+
+
+    }
+
+    /* RESIZING THE FONTS */
+    .collections-heading {
+        font-size: 36px;
+
+    }
+
+
+    .collections-para {
+        font-size: 18px;
+    }
+
+
+    /* DISPLAYING THE ALL COLLECTION */
+    .all-collections {
+        display: block;
+        color: #E03546
+    }
+    .para-span {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .card-container{
+        justify-content: space-evenly;
+        /* width: 80%; */
+        /* flex-wrap: nowrap; */
+    }
+
+    .card{
+        margin: 0;
+        height: 320px;
+    }
+
+
+    /* ADJUSTING card's BACKGROUND IMAGE  */
+    .card:nth-child(2) {
+        background-position-x: -45px;
+
+    }
+
+    .card:nth-child(4) {
+        background-position-x: -45px;
+
+    }
+
+    /* ADJUSTING CARD'S FONT SIZE */
+
+    .p1 {
+        font-size: 18px;
+
+    }
+
+    .p2 {
+        font-size: 14px;
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* changing bg position for large devices  */
+
+/* adjusting the sizes for larger size devices like monitor laptop etc */
+@media (min-width:1400px) {
+    .top-section-with-backgroundimg {
+        background-position-y: -120px;
+    }
+
+    .navbar {
+        width: 75%;
+    }
+
+    .login-responsive-container {
+        width: 58%;
+    }
+
+
+    /* Adjusting the TEXT display and size*/
+
+    .order-section-container {
+
+        /* height: 170px; */
+        /* border: 1px solid black; */
+        margin: 20px 25px 20px 25px;
+    }
+
+    .food-img {
+        width: 361px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        height: 180px;
+
+
+    }
+
+    .food-img-text-para {
+
+        display: block;
+        font-size: 16px;
+    }
+
+    .medium-para {
+        display: none;
+    }
+
+    .smallest-para {
+        display: none;
+    }
+
+
+
+
+
+
+
+    .card-container{
+        justify-content: space-evenly;
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ADJUSTMETN FOR DEVICES THAT HAVE HEIGHT>750 AND WIDTH>1400PX BOTH */
+
+/* @media (min-height:700px) and (min-width:1200px){
+    .top-section-with-backgroundimg {
+        width: 100%;
+        height: 60vh;
+        background-position-y: -100px;
+    }
+
+    
+    .navbar {
+        width: 75%;
+        height: 50px;
+    }
+
+
+
+    .login-responsive-container {
+        height: 50px;
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+} */
+
+
+
+/* OPTIONAL */
+
+
+
+
+/* for GALAZXY fold  */
+@media(max-width:300px) {
+
+    #s {
+        border: none;
+
+        height: 40px;
+        width: 200px;
+
+    }
+
+
+
+    .order-section-container {
+        margin: 15px 0 0 10px;
+        flex-basis: 114px;
+        max-width: 114px;
+        /* border: 1px solid red; */
+
+    }
+
+
+}
