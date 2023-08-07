@@ -50,23 +50,38 @@ Like MOTO G31 etc*/
 
     }
 
-    #input{
+    #input {
         padding: 10px 5px;
     }
 
-    #submit-button{
+    #submit-button {
 
-    padding : 10px 5px;
-    margin: 0;
-    
+        padding: 10px 5px;
+        margin: 0;
 
-}
 
-.downloadfrom{
-    width: 120px;
-    height: 35px;
-    margin-left: 5px;
-}
+    }
+
+    .downloadfrom {
+        width: 120px;
+        height: 35px;
+        margin-left: 5px;
+    }
+
+    .explore-options-section {
+
+        padding: 5rem 1rem 1rem 1rem ;
+    }
+
+    .accordion-header {
+        padding: 20px 5px;
+        font-size: 14px;
+    }
+
+    .accordion-header img {
+        position: absolute;
+        right: .8rem;
+    }
 
 
 
@@ -453,9 +468,10 @@ Exanple Laptop monitor etc */
     }
 
     .get-zomato-div p {
-        text-align: left;
+        text-align: center;
+        margin-left: -55px;
         margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         width: 480px;
 
     }
@@ -474,18 +490,28 @@ Exanple Laptop monitor etc */
         height: 48px;
     }
 
-    .mobileIcon{
+    .mobileIcon {
         display: block;
         height: 300px;
-        margin-right:100px ;
-        
+        margin-right: 100px;
+
     }
 
-    .downlaodApp{
+    .downlaodApp {
         margin-top: -10px;
     }
 
-  
+    .explore-heading {
+        font-size: 30px;
+    }
+
+    .accordion-content{
+        font-size: 16px;
+        color: #828282;
+    }
+    
+
+
 
 
 
@@ -642,6 +668,17 @@ Exanple Laptop monitor etc */
         max-width: 114px;
         /* border: 1px solid red; */
 
+    }
+
+    .explore-options-section {
+        padding: 5rem .35rem 2rem .35rem;
+    }
+
+    .explore-heading {
+        font-size: 18px;
+    }
+    .accordion-header{
+        font-size: 12px ;
     }
 
 
