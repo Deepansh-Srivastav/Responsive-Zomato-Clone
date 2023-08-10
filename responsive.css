@@ -84,6 +84,29 @@ Like MOTO G31 etc*/
     }
 
 
+    .item1{
+        width: 150px;
+    }
+    .item2{
+        width: 120px;
+    }
+    .item3{
+        width: 170px;
+    }
+    .item4{
+        width: 103px;
+    }
+
+    .licolor{
+        font-size: 12px;
+    }
+    .ul-color{
+        font-size: 13px;
+    }
+
+    .footer-downloadfrom{
+        justify-content: space-between;
+    }
 
 
 
@@ -127,6 +150,27 @@ Like MOTO G31 etc*/
         display: block;
     }
 
+
+
+    .item1{
+        width: 190px;
+    }
+    .item2{
+        width: 133px;
+    }
+    .item3{
+        width: 170px;
+    }
+    .item4{
+        width: 103px;
+    }
+
+    .licolor{
+        font-size: 12px;
+    }
+    .ul-color{
+        font-size: 13px;
+    }
 
 
 
@@ -522,6 +566,7 @@ Exanple Laptop monitor etc */
 
     .footer-main{
         flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     .item1{
@@ -629,6 +674,10 @@ Exanple Laptop monitor etc */
         width: 80%;
     }
 
+
+
+   
+
 }
 
 
@@ -723,5 +772,42 @@ Exanple Laptop monitor etc */
         font-size: 12px ;
     }
 
+
+    .btn{
+        height: 50px;
+        width: 200px ;
+
+    }
+
+
+    .item1{
+        width: 140px;
+    }
+    .item2{
+        width: 110px;
+    }
+    .item3{
+        width: 150px;
+    }
+    .item4{
+        width: 103px;
+    }
+
+    .licolor{
+        font-size: 12px;
+    }
+    .ul-color{
+        font-size: 13px;
+    }
+
+    .footer-downloadfrom{
+        justify-content: space-between;
+    }
+
+    .footer-downloadfrom img{
+        width: 120px;
+        height: 35px;
+        margin-left: 10px;
+    }
 
 }
