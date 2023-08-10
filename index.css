@@ -948,7 +948,9 @@ a:hover {
 /* contry and langusage seelction button */
 .btn {
     width: 100%;
+    max-width: 450px;
     padding: 0;
+
     display: flex;
     justify-content: space-evenly;
 }
@@ -1031,11 +1033,19 @@ a:hover {
 
 .arr {
     position: absolute;
-    bottom: 13px;
-    right: 10px;
+    bottom: 20px;
+    right: 14px;
 }
 
+.language-logo{
+    width: 18px;
+    height: 18px;
+}
 
+.arr-size{
+    width: 12px;
+    height:12px ;
+}
 
 
 
