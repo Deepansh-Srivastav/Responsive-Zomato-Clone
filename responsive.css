@@ -514,6 +514,43 @@ Exanple Laptop monitor etc */
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .social-media{
+        height: 100%;
+        max-height: 200px;
+    }
+
+    .footer-main{
+        flex-direction: row;
+    }
+
+    .item1{
+        width: 100%;
+        max-width:205px ;
+    }
+    .item2{
+        width: 100%;
+        max-width:215px ;
+    }
+    .item3{
+        width: 100%;
+        max-width:275px ;
+    }
+    .item4{
+        width: 100%;
+        max-width:183px ;
+    }
+    
+
+
+    .icons{
+        margin: 0;
+    }
+    .footer-downloadfrom{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
     
 
 
