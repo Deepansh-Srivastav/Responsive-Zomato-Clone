@@ -44,3 +44,78 @@ accordion.forEach((a) => {
 })
 
 
+const countryToggleButton = document.querySelector('.country-button')
+const container = document.querySelector('.country-div')
+
+
+countryToggleButton.addEventListener('click',()=>{
+    container.classList.toggle('active')
+    languageContainer.classList.remove('language-active')
+})
+
+
+
+let countries = document.querySelectorAll('.country-info')
+
+var information = [
+    {
+        flagURL: countries[0].children[0].src,
+        name: countries[0].innerText
+    },
+    {
+        flagURL: countries[1].children[0].src,
+        name: countries[1].innerText
+    },
+    {
+        flagURL: countries[2].children[0].src,
+        name: countries[2].innerText
+    },
+    {
+        flagURL: countries[3].children[0].src,
+        name: countries[3].innerText
+    },
+    {
+        flagURL: countries[4].children[0].src,
+        name: countries[4].innerText
+    },
+    {
+        flagURL: countries[5].children[0].src,
+        name: countries[5].innerText
+    },
+    {
+        flagURL: countries[6].children[0].src,
+        name: countries[6].innerText
+    },
+    {
+        flagURL: countries[7].children[0].src,
+        name: countries[7].innerText
+    }
+
+]
+
+
+countries.forEach((country) => {
+
+    country.addEventListener('click', () => {
+
+        let i = parseInt(country.dataset.value);
+
+        countryToggleButton.children[0].src = information[i].flagURL
+ 
+        countryToggleButton.children[1].innerText = information[i].name
+
+        container.classList.remove('active')
+
+    })
+})
+
+
+
+const languageToggleButton = document.querySelector('.language-button')
+const languageContainer = document.querySelector('.language-div')
+
+
+languageToggleButton.addEventListener('click',()=>{
+    languageContainer.classList.toggle('language-active')
+    container.classList.remove('active')
+})
