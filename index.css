@@ -758,7 +758,7 @@ a:hover {
     font-size: 12px;
     color: #828282;
 }
-
+/* accordion content  styled at last of this document   */
 .change-border {
     border: 2px solid #e8e8e8;
     border-bottom: 0;
@@ -1121,3 +1121,53 @@ a:hover {
 }
 
 
+/* 
+===================================================================================
+===================================================================================
+===================================================================================
+===== Accordion Content                                                    =====
+===================================================================================
+===================================================================================
+===================================================================================
+*/
+
+
+.item1-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100%;
+}
+.item1-list li {
+    width: auto;
+    margin-right: 25px;
+    color: #828282;
+} 
+
+.item1-list li a{
+    width: auto;
+    margin-right: 25px;
+    color: #828282;
+}
+
+
+.list-st{
+    list-style: none;
+
+}
+
+.list-st li {
+    margin: 20px 20px 0 0 ;
+
+}
+
+
+.item4-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item4-list li {
+    margin: 20px;
+}
